@@ -1,4 +1,4 @@
-<!doctype html> <html lang="fr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <title>404 - 404</title> <link rel="stylesheet" href="/assets/css/reset.css"> <link rel="stylesheet" href="/assets/css/style.css"> <style> .layout--404 {
+<!doctype html> <html lang="fr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <title>404 - Page indisponible</title> <link rel="stylesheet" href="/assets/css/reset.css"> <link rel="stylesheet" href="/assets/css/style.css"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500&display=swap"> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,600&display=swap"> <style> .layout--404 {
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -6,8 +6,15 @@
             text-align: center;
             padding: 1rem;
         }
+        .error-code {
+            margin: 0;
+            color: var(--blue-300);
+            font-size: clamp(5rem, 20vw, 10rem);
+            font-weight: 500;
+            line-height: 0.9;
+        }
         .pv-xxl {
             width: 100%;
             max-width: 40rem;
             margin: 0 auto;
-        } </style> </head> <body> <div class="layout--404"> <div class="pv-xxl mh-sm"> <h1 class="heading">Désolé</h1> <p>Cette page est indisponible.</p> <a href="/fr/" class="button button--primary">Retour à l&#39;Accueil</a> </div> </div> </body> </html>
+        } </style> </head> <body> <div class="layout--404"> <div class="pv-xxl mh-sm"> <p class="error-code" aria-label="Error 404">404</p> <h1 class="heading">Désolé</h1> <p class="pb-lg">Cette page est indisponible.</p> <a href="/fr/" class="button button--primary">Retour à l&#39;Accueil</a> </div> </div> </body> </html>

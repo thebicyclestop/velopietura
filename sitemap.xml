@@ -47,12 +47,6 @@
 
   
   <url>
-    <loc>https://velopietura.lv/en/service/</loc>
-  </url>
-  
-
-  
-  <url>
     <loc>https://velopietura.lv/en/package/box-to-road/</loc>
   </url>
   
@@ -80,12 +74,6 @@
   
   <url>
     <loc>https://velopietura.lv/fr/</loc>
-  </url>
-  
-
-  
-  <url>
-    <loc>https://velopietura.lv/fr/service/</loc>
   </url>
   
 
@@ -121,12 +109,6 @@
 
   
   <url>
-    <loc>https://velopietura.lv/service/</loc>
-  </url>
-  
-
-  
-  <url>
     <loc>https://velopietura.lv/package/box-to-road/</loc>
   </url>
   
@@ -146,6 +128,24 @@
   
   <url>
     <loc>https://velopietura.lv/package/tune-up/</loc>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://velopietura.lv/en/service/</loc>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://velopietura.lv/fr/service/</loc>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://velopietura.lv/service/</loc>
   </url>
   
 
